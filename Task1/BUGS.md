@@ -13,7 +13,7 @@
 | Приоритет (Priority) | Medium |
 | Ожидаемый результат | "Поколение"|
 |Фактический результат| Отображается как "покление"|
-<img src="./img/1.png" width="" height="">
+<img src="./img/bug_1.png" width="" height="">
 
 ## ▎Bug 1.2
 | | |
