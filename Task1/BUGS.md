@@ -23,7 +23,7 @@
 | Приоритет (Priority) | Low |
 | Ожидаемый результат |"20"|
 |Фактический результат| Отображается "-20"|
-<img src="./img/bug_2.jpg" width="" height="">
+<img src="./img/bug_2.png" width="" height="">
 
 ## ▎Bug 1.3
 | | |
@@ -33,7 +33,7 @@
 | Приоритет (Priority) | High |
 | Ожидаемый результат |Кнопка с текстом "Подробнее"|
 |Фактический результат| Кнопка без текста |
-<img src="./img/bug_3.jpg" width="" height="">
+<img src="./img/bug_3.png" width="" height="">
 
 ## ▎Bug 1.4
 | | |
@@ -43,7 +43,7 @@
 | Приоритет (Priority) | Medium |
 | Ожидаемый результат |Находится снизу блока изображения товара |
 |Фактический результат| Свдинулось в блок заголовка объявления |
-<img src="./img/bug_4.jpg" width="" height="">
+<img src="./img/bug_4.png" width="" height="">
 
 
 ## ▎Bug 1.5
@@ -54,7 +54,7 @@
 | Приоритет (Priority) | High |
 | Ожидаемый результат |Кнопка должна располагаться в  правом углу относительно названия объявления |
 |Фактический результат| Карточка товара: кнопка "Добавить в избранное"(сердечко) смещена в правую верхнюю сторону блока товара. |
-<img src="./img/bug_5.jpg" width="" height="">
+<img src="./img/bug_5.png" width="" height="">
 
 
 ## ▎Bug 1.6
@@ -65,7 +65,7 @@
 | Приоритет (Priority) | High |
 | Ожидаемый результат |Авто только с полным приводом |
 |Фактический результат| Авто с передним приводом|
-<img src="./img/bug_6.jpg" width="" height="">
+<img src="./img/bug_6.png" width="" height="">
 
 
 ## ▎Bug 1.7
@@ -76,7 +76,7 @@
 | Приоритет (Priority) | High |
 | Ожидаемый результат |Только авто марки "BMW" |
 |Фактический результат| Авто марки "Mercedes-Benz"|
-<img src="./img/bug_7.jpg" width="" height="">
+<img src="./img/bug_7.png" width="" height="">
 
 
 ## ▎Bug 1.8
@@ -87,4 +87,8 @@
 | Приоритет (Priority) | Medium |
 | Ожидаемый результат |Только авто указанного диапазоном года|
 |Фактический результат| Авто более раннего года выпуска|
-<img src="./img/bug_8.jpg" width="" height="">
+<img src="./img/bug_8.png" width="" height="">
+
+<img src="./img/bug_9.png" width="" height="">
+<img src="./img/bug_10.png" width="" height="">
+<img src="./img/bug_11.png" width="" height="">
