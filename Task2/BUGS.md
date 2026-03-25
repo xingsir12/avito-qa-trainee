@@ -40,12 +40,14 @@ curl -X POST https://qa-internship.avito.com/api/1/item \
 HTTP статус: `400 Bad Request`
 Сервер интерпретирует `0` как отсутствие значения.
 
-**Ожидаемый результат:** `200 OK` — `0` является валидным числовым значением
+**Ожидаемый результат:**
+HTTP статус: `200 OK`
+Объявление создано с нулевой статистикой
 
-**Серьёзность** 
+**Серьёзность:** 
 High
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: POST /api/1/item
 Версия API: v1
@@ -85,10 +87,10 @@ HTTP статус: `200 OK`
 HTTP статус: `400 Bad Request`
 Сообщение об ошибке: цена не может быть отрицательной
 
-**Серьёзность**
+**Серьёзность:**
 High
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: POST /api/1/item
 Версия API: v1
@@ -126,10 +128,10 @@ HTTP статус: `200 OK`
 HTTP статус: `400 Bad Request`
 Сообщение об ошибке: статистика не может быть отрицательной
 
-**Серьёзность**
+**Серьёзность:**
 High
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: POST /api/1/item
 Версия API: v1
@@ -168,10 +170,10 @@ curl -X POST https://qa-internship.avito.com/api/1/item \
 Тело ответа содержит поле createdAt в формате ISO 8601
 Пример: `"createdAt": "2026-03-25T10:30:00.000Z"`
 
-**Серьёзность**
+**Серьёзность:**
 Medium
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: POST /api/1/item
 Версия API: v1
@@ -199,10 +201,10 @@ HTTP статус: `405 Method Not Allowed`
 HTTP статус: `200 OK`
 Заголовки: `Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`
 
-**Серьёзность**
+**Серьёзность:**
 Minor
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: OPTIONS /api/1/item
 Версия API: v1
@@ -226,10 +228,10 @@ URL: https://qa-internship.avito.com
 Объявления отсортированы по убыванию createdAt
 Последнее созданное объявление должно быть первым в списке
 
-**Серьёзность**
+**Серьёзность:**
 Medium
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: POST /api/1/item
 Версия API: v1
@@ -241,6 +243,7 @@ URL: https://qa-internship.avito.com
 **Краткое описание:**
 При создании объявления с name длиной 255 символов API возвращает 400 Bad Request
 с сообщением "не передан объект - объявление", хотя объявление передано.
+
 **Шаги воспроизведения:**
 1. Запустить тест: `mvn test -Dtest=CreateItemTest#createItem_maxLengthName_returns200`
 2. Либо ввести запрос вручную:
@@ -265,10 +268,10 @@ HTTP статус: 400 Bad Request
 HTTP статус: `200 OK`
 Объявление создано с name длиной 255 символов
 
-**Серьёзность**
+**Серьёзность:**
 Medium
 
-**Окружение**
+**Окружение:**
 URL: https://qa-internship.avito.com
 Метод: POST /api/1/item
 Версия API: v1
